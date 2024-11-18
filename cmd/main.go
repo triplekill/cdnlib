@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"cdnlib"
 )
 
 func main() {
-	fmt.Println(IsCDN("1.1.1.1"))
+	fmt.Println(cdnlib.IsCDN("103.244.50.1"))
 }
